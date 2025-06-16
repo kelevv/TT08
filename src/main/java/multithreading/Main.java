@@ -5,7 +5,7 @@ public class Main {
         Thread t1 = new Thread(new MyRunnable("PING"));
         Thread t2 = new Thread(new MyRunnable("PONG"));
 
-        System.out.println("Game start");
+        System.out.println("GAME START!");
 
         t1.start();
         t2.start();
@@ -17,7 +17,7 @@ public class Main {
             System.out.println("Main thread was interrupted");
         }
 
-        System.out.println("Game over");
+        System.out.println("GAME OVER!");
 
     }
 }
