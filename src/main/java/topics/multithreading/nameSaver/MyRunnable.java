@@ -1,4 +1,4 @@
-package multithreading.nameSaver;
+package topics.multithreading.nameSaver;
 
 
 import config.ConfigLoader;

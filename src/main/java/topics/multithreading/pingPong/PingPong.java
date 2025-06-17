@@ -1,4 +1,4 @@
-package multithreading.pingPong;
+package topics.multithreading.pingPong;
 
 public class PingPong {
     public static void run() {

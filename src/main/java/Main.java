@@ -1,6 +1,5 @@
 import config.ConfigLoader;
-import multithreading.nameSaver.NameSaver;
-import multithreading.pingPong.PingPong;
+import topics.exceptions.CustomExceptionStudy;
 
 public class Main {
     public static void main(String[] args) {
@@ -8,6 +7,9 @@ public class Main {
         ConfigLoader config = new ConfigLoader();
 
         // PingPong.run();
-        NameSaver.run();
+        // NameSaver.run();
+        // Exception.run();
+        CustomExceptionStudy.run();
+
     }
 }

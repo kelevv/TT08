@@ -1,4 +1,4 @@
-package multithreading.pingPong;
+package topics.multithreading.pingPong;
 
 public class MyRunnable implements Runnable {
     private final String text;
